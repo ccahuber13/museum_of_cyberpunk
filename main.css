@@ -1,0 +1,86 @@
+body {
+    /* background: url("img/bg.jpg") center no-repeat fixed; */
+    background-color: rgb(15, 15, 15);
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+     font-size: 1.5rem;
+    font-weight: 200;
+}
+
+#mainNavbar .navbar-brand {
+    color: #00b7ff;
+    font-size: 1.5rem!important;
+}
+    #mainNavbar .nav-link:hover {
+        color: #00b7ff;
+    }
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#headingGroup {
+   
+    border-color: #00b7ff!important;
+/* text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 25px rgba(255,255,255,1) , 0 0 30px rgb(0, 183, 255) , 0 0 50px rgb(0, 183, 255) , 0 0 60px rgb(0, 183, 255) , 0 0 70px rgb(0, 183, 255) ; */
+
+}
+
+#headingGroup span {
+    color:#ff00bf;
+    /* text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 25px rgba(255,255,255,1) , 0 0 30px #ff00bf , 0 0 50px #ff00bf , 0 0 60px #ff00bf , 0 0 70px #ff00bf ; */
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    letter-spacing: .7rem;
+     color: #00b7ff;
+}
+
+#subHeadings h2 {
+    font-weight: 100;
+    letter-spacing: .7rem;
+    color: #00b7ff;
+}
+
+#subHeadings .lead {
+    color: #00b7ff;
+}
+
+@media (max-width: 1650px){
+    #headingGroup h1 {
+       font-size: 1.2rem;
+    }
+      #subHeadings h2 {
+       font-size: 1.2rem;
+    }
+    #navLinks{
+        font-size: 1rem;
+    }
+    #subHeadings .lead {
+    font-size:1rem;
+}
+
+}
+.content {
+    margin: 5rem 0;
+}
+
+.navbar.scrolled {
+    background: #ff00bf;
+    transition: background 800ms;
+}
+
+
+@media print {
+
+h1 {
+    font-size: 100pt;
+}
+
+
+
+
+}

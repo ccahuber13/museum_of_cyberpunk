@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Museum of Cyberpunk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script src="jscript.js"></script>
+
+</head>
+<body>
+  
+    <nav id="mainNavbar" class="navbar navbar-dark  navbar-expand-md py-0 fixed-top">
+        <a class="navbar-brand" href="#">CYBERPUNK</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div id="navLinks" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active" ><a href="#" class="nav-link">HOME</a></li>
+                <li class="nav-item" ><a href="#" class="nav-link">ABOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="row justify-content-center content">
+                        <div class="col-10">
+                            <div id="headingGroup" class=" py-4 text-white text-center d-none d-lg-block  border-bottom border-top">
+                                <h1>Museum <span>/</span>of <span>/</span>Cyberpunk</h1>
+                                <h1>Museum <span>/</span>of <span>/</span>Cyberpunk</h1>
+                                <h1>Museum <span>/</span>of <span>/</span>Cyberpunk</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 px-0">
+                    <img class="img-fluid" src="img/cb7.jpeg"/>
+                </div>
+        </div>
+    </section>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center text-center content">
+            <div class="col-md-6 px-0 order-2 order-md-1">
+                <img class="img-fluid" src="img/cb6.jpg" alt="" />
+            </div>
+            <div class="col-md-6 px-0 order-1 order-md-2">
+               <div class="row justify-content-center">
+                   <div id="subHeadings"class="col-10 col-8-lg mb-5 mb-md-0">
+                        <h2>MUSEUM OF CYBERPUNK</h2>
+                        <img src="img/sunset.svg" width="60px" class="my-4 d-none d-lg-inline">
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus pariatur accusamus deserunt delectus
+                            porro, quam, tempora eius temporibus vel iste illo nisi ad animi enim consectetur. Vitae quis temporibus sit.</p>
+                        </div>
+                   </div>
+               </div>
+        </div>
+    </section>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center text-center content">
+            
+            <div class="col-md-6 px-0 order-1 order-md-1">
+                <div class="row justify-content-center">
+                    <div id="subHeadings" class="col-10 col-8-lg mb-5 mb-md-0">
+                        <h2>MUSEUM OF CYBERPUNK</h2>
+                        <img src="img/buildings.svg" width="60px" class="my-4 d-none d-lg-inline">
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus pariatur accusamus
+                            deserunt delectus
+                            porro, quam, tempora eius temporibus vel iste illo nisi ad animi enim consectetur. Vitae quis
+                            temporibus sit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 px-0 order-2 order-md-2">
+                <img class="img-fluid" src="img/cb7.jpg" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid px-0">
+       
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+      <script>
+          $(function () {
+              $(document).scroll(function(){
+                 var $nav = $("#mainNavbar");
+                 $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());;
+              });
+          });
+      </script>  
+</body>
+</html>
